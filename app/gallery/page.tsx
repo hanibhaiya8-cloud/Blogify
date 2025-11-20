@@ -74,7 +74,7 @@ export default function GalleryPage() {
 
         {/* Copyright */}
         <div className="py-4 text-center text-sm text-gray-800 font-semibold">
-          Copyright © 2025 Jodhpur Call Girls
+          Copyright © 2015 Jodhpur Call Girls
         </div>
       </footer>
     </div>
