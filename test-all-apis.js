@@ -19,7 +19,7 @@ async function testAllAPIs() {
     const newProfile = {
       heading: 'Test Regular Girl',
       description: 'Test description for regular profile API',
-      location: 'Jaipur',
+      location: 'Jodhpur',
       contactNumber: '9876543210',
       images: ['https://picsum.photos/400/600?random=888']
     };
@@ -66,7 +66,7 @@ async function testAllAPIs() {
     const newHighProfile = {
       heading: 'Test High Profile Girl',
       description: 'Test description for high profile API',
-      location: 'Jaipur',
+      location: 'Jodhpur',
       contactNumber: '7878787878',
       images: ['https://picsum.photos/400/600?random=999']
     };

@@ -14,7 +14,7 @@ export function AdminProfileForm() {
   const [profile, setProfile] = useState<Omit<Profile, '_id' | 'id'>>({ 
     heading: '',
     description: '',
-    location: 'Jaipur',
+    location: 'Jodhpur',
     contactNumber: '7878787878',
     images: []
   });
@@ -289,7 +289,7 @@ export function AdminProfileForm() {
                   className="w-full px-3 sm:px-4 py-2.5 sm:py-3 text-sm sm:text-base border-2 border-gray-200 rounded-lg focus:outline-none focus:border-purple-500 transition-colors bg-white"
                   required
                 >
-                  <option value="Jaipur">Jaipur</option>
+                  <option value="Jodhpur">Jodhpur</option>
                   <option value="Delhi">Delhi</option>
                   <option value="Mumbai">Mumbai</option>
                   <option value="Bangalore">Bangalore</option>

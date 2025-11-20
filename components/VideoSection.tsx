@@ -1,6 +1,8 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import { isAdminAuthenticated } from '../lib/auth'
+import { Edit } from 'lucide-react'
 
 interface VideoSettings {
   videoUrl: string
@@ -33,6 +35,13 @@ export default function VideoSection() {
     }
   }
 
+  const [isAdmin, setIsAdmin] = useState(false)
+
+  useEffect(() => {
+    // Check admin status on the client side
+    setIsAdmin(isAdminAuthenticated())
+  }, [])
+
   if (loading) {
     return (
       <div className="relative rounded-2xl overflow-hidden shadow-2xl mb-10 bg-gray-200 h-[400px] md:h-[600px] flex items-center justify-center">
@@ -42,7 +51,19 @@ export default function VideoSection() {
   }
 
   return (
-    <div className="relative rounded-2xl overflow-hidden shadow-2xl mb-10 group">
+    <div className="relative w-full rounded-2xl overflow-hidden shadow-2xl mb-10 group">
+      {isAdmin && (
+        <div className="absolute top-4 right-4 z-10">
+          <button
+            onClick={() => window.location.href = '/admin/video'}
+            className="bg-white/90 hover:bg-white text-pink-600 font-medium py-2 px-4 rounded-full shadow-md flex items-center gap-2 transition-all duration-200 hover:shadow-lg"
+            title="Change Video"
+          >
+            <Edit className="w-4 h-4" />
+            <span>Change Video</span>
+          </button>
+        </div>
+      )}
       {settings.videoUrl ? (
         <video
           autoPlay
@@ -50,17 +71,17 @@ export default function VideoSection() {
           muted
           playsInline
           controls
-          className="w-full h-[400px] md:h-[600px] object-cover"
+          className="w-full h-auto sm:h-[400px] md:h-[600px] object-cover aspect-video"
           poster=""
         >
           <source src={settings.videoUrl} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       ) : (
-        <div className="w-full h-[400px] md:h-[600px] bg-gradient-to-br from-purple-600 to-pink-600 flex items-center justify-center">
+        <div className="w-full h-auto sm:h-[400px] md:h-[600px] aspect-video bg-gradient-to-br from-purple-600 to-pink-600 flex items-center justify-center">
           <div className="text-white text-center">
             <h3 className="text-2xl md:text-4xl font-bold mb-4">Experience Luxury Like Never Before</h3>
-            <p className="text-lg md:text-xl">Premium call girl services in Jaipur</p>
+            <p className="text-lg md:text-xl">Premium call girl services in Jodhpur</p>
           </div>
         </div>
       )}
@@ -69,7 +90,7 @@ export default function VideoSection() {
       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-6 md:p-10">
         <h3 className="text-white text-2xl md:text-4xl font-bold mb-2">Experience Luxury Like Never Before</h3>
         <p className="text-white/90 text-sm md:text-lg max-w-2xl">
-          Premium call girl services in Jaipur with 100% privacy and satisfaction.
+          Premium call girl services in Jodhpur with 100% privacy and satisfaction.
         </p>
         <a
           href={`https://wa.me/${settings.phoneNumber}?text=Hello%2C%20I'm%20interested%20in%20booking%20an%20appointment`}

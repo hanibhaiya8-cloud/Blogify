@@ -1,4 +1,4 @@
-// File: C:\Users\Deepika Joshi\Blogify\app\api\video\route.ts
+// File: /home/dif/Desktop/Blogify/app/api/video/route.ts
 import * as entry from '../../../../../app/api/video/route.js'
 import type { NextRequest } from 'next/server.js'
 

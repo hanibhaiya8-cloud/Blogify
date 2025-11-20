@@ -1,4 +1,4 @@
-// File: C:\Users\Deepika Joshi\Blogify\app\api\extra-services\[id]\route.ts
+// File: /home/dif/Desktop/Blogify/app/api/extra-services/[id]/route.ts
 import * as entry from '../../../../../../app/api/extra-services/[id]/route.js'
 import type { NextRequest } from 'next/server.js'
 

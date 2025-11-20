@@ -1,4 +1,4 @@
-// File: C:\Users\Deepika Joshi\Blogify\app\api\high-profile-call-girls\[id]\route.ts
+// File: /home/dif/Desktop/Blogify/app/api/high-profile-call-girls/[id]/route.ts
 import * as entry from '../../../../../../app/api/high-profile-call-girls/[id]/route.js'
 import type { NextRequest } from 'next/server.js'
 

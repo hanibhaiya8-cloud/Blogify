@@ -1,21 +1,20 @@
 {
-  "app\\user\\page.tsx -> ../../components/GalleryGrid": {
-    "id": 1003,
+  "app/user/page.tsx -> ../../components/GalleryGrid": {
+    "id": "app/user/page.tsx -> ../../components/GalleryGrid",
     "files": [
-      "static/chunks/993.7ef4f69de853680f.js"
+      "static/chunks/_app-pages-browser_components_GalleryGrid_tsx.js"
     ]
   },
-  "app\\user\\page.tsx -> ../../components/HighProfileCallGirlsList": {
-    "id": 4400,
+  "app/user/page.tsx -> ../../components/HighProfileCallGirlsList": {
+    "id": "app/user/page.tsx -> ../../components/HighProfileCallGirlsList",
     "files": [
-      "static/chunks/648-a5e439828ce8475e.js",
-      "static/chunks/400.349fe7c615c9775e.js"
+      "static/chunks/_app-pages-browser_components_HighProfileCallGirlsList_tsx.js"
     ]
   },
-  "app\\user\\page.tsx -> ../../components/ReadOnlyAdminDashboard": {
-    "id": 2125,
+  "app/user/page.tsx -> ../../components/ReadOnlyAdminDashboard": {
+    "id": "app/user/page.tsx -> ../../components/ReadOnlyAdminDashboard",
     "files": [
-      "static/chunks/125.9c4129c8ee125103.js"
+      "static/chunks/_app-pages-browser_components_ReadOnlyAdminDashboard_tsx.js"
     ]
   }
 }

@@ -1,4 +1,4 @@
-// File: C:\Users\Deepika Joshi\Blogify\app\api\final-call-girls\[id]\route.ts
+// File: /home/dif/Desktop/Blogify/app/api/final-call-girls/[id]/route.ts
 import * as entry from '../../../../../../app/api/final-call-girls/[id]/route.js'
 import type { NextRequest } from 'next/server.js'
 

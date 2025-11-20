@@ -167,7 +167,7 @@ const GalleryGrid: React.FC = () => {
             <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex flex-col justify-end p-4 text-white overflow-hidden">
               <div className="space-y-2 mb-3">
                 <h3 className="font-bold text-base md:text-lg leading-tight break-words">
-                  {profile.heading || 'Alluring Call Girl in Jaipur'}
+                  {profile.heading || 'Alluring Call Girl in Jodhpur'}
                 </h3>
                 {profile.description && (
                   <p>
@@ -177,7 +177,7 @@ const GalleryGrid: React.FC = () => {
                 <p className="text-xs text-pink-300">
                   <span className="whitespace-nowrap">24/7 Premium Service</span>
                   <span> • </span>
-                  <span className="whitespace-nowrap">{profile.location || 'Jaipur'}</span>
+                  <span className="whitespace-nowrap">{profile.location || 'Jodhpur'}</span>
                 </p>
               </div>
               <a 
@@ -202,9 +202,9 @@ const GalleryGrid: React.FC = () => {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex flex-col justify-end p-4 text-white">
               <div className="overflow-y-auto max-h-[calc(100%-60px)] pr-2 -mr-2">
-                <h3 className="font-bold text-base mb-1">Alluring Call Girl in Jaipur</h3>
+                <h3 className="font-bold text-base mb-1">Alluring Call Girl in Jodhpur</h3>
                 <p className="text-xs text-gray-200 mb-2">Premium companionship services available 24/7 in your area. Experience luxury and discretion with our professional escorts.</p>
-                <p className="text-xs text-pink-300 mb-3">24/7 Premium Service • Jaipur</p>
+                <p className="text-xs text-pink-300 mb-3">24/7 Premium Service • Jodhpur</p>
               </div>
               <a 
                 href="https://wa.me/919784959393?text=Hello%2C%20I'm%20interested%20in%20booking%20an%20appointment."

@@ -16,7 +16,7 @@ async function testHighProfileAPI() {
     const newProfile = {
       heading: 'Test Girl',
       description: 'Test description for API',
-      location: 'Jaipur',
+      location: 'Jodhpur',
       contactNumber: '7878787878',
       images: ['https://picsum.photos/400/600?random=999']
     };

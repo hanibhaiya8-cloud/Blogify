@@ -1,4 +1,4 @@
-// File: C:\Users\Deepika Joshi\Blogify\app\layout.tsx
+// File: /home/dif/Desktop/Blogify/app/layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

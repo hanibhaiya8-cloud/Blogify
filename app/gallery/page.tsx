@@ -57,14 +57,14 @@ export default function GalleryPage() {
             <h3 className="font-bold text-lg mb-3">Contact Us</h3>
             <p className="text-gray-700 text-sm leading-relaxed">
               Phone: +91-7978431266 <br />
-              Address: Jaipur, India
+              Address: Jodhpur, India
             </p>
           </div>
 
           {/* India-wide Service */}
           <div>
             <h3 className="font-bold text-lg mb-3">We offer call girls service in Whole India</h3>
-            <p className="text-gray-700 text-sm">Rinky Walia</p>
+            <p className="text-gray-700 text-sm">Hanny Bhaiya</p>
           </div>
 
         </div>
@@ -74,7 +74,7 @@ export default function GalleryPage() {
 
         {/* Copyright */}
         <div className="py-4 text-center text-sm text-gray-800 font-semibold">
-          Copyright © 2025 Jaipur Call Girls
+          Copyright © 2025 Jodhpur Call Girls
         </div>
       </footer>
     </div>

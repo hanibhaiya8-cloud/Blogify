@@ -159,14 +159,14 @@ export default function UserProfileList({ showAll = false, maxItems = 8 }: { sho
               
               <div className="p-5 flex flex-col h-[calc(100%-14rem)]">
                 <h3 className="text-lg md:text-xl font-bold text-purple-800 mb-2 break-words">
-                  {profile.heading || 'Call Girl in Jaipur'}
+                  {profile.heading || 'Call Girl in Jodhpur'}
                 </h3>
                 <div className="mb-3">
                   <p className="text-gray-600 text-sm whitespace-normal break-words">
-                    {profile.description || 'Professional call girl service available 24/7 in Jaipur'}
+                    {profile.description || 'Professional call girl service available 24/7 in Jodhpur'}
                   </p>
                 </div>
-                <p className="text-pink-600 font-medium mb-4">{profile.location || 'Jaipur, India'}</p>
+                <p className="text-pink-600 font-medium mb-4">{profile.location || 'Jodhpur, India'}</p>
                 <div className="mt-auto pt-3">
                   <div className="flex space-x-3">
                     <a 

@@ -5,8 +5,8 @@ const sampleHighProfileGirls = [
   {
     id: 'hp1',
     heading: 'Priya Sharma',
-    description: 'Premium high-profile call girl in Jaipur. Available for both incall and outcall services. 100% satisfaction guaranteed.',
-    location: 'Jaipur',
+    description: 'Premium high-profile call girl in Jodhpur. Available for both incall and outcall services. 100% satisfaction guaranteed.',
+    location: 'Jodhpur',
     contactNumber: '7878787878',
     images: ['https://picsum.photos/400/600?random=1'],
     createdAt: new Date().toISOString(),
@@ -15,8 +15,8 @@ const sampleHighProfileGirls = [
   {
     id: 'hp2', 
     heading: 'Ananya Verma',
-    description: 'Elite Jaipur escort with stunning looks and charming personality. WhatsApp for booking and rates.',
-    location: 'Jaipur',
+    description: 'Elite Jodhpur escort with stunning looks and charming personality. WhatsApp for booking and rates.',
+    location: 'Jodhpur',
     contactNumber: '7878787878',
     images: ['https://picsum.photos/400/600?random=2'],
     createdAt: new Date().toISOString(),
@@ -25,8 +25,8 @@ const sampleHighProfileGirls = [
   {
     id: 'hp3',
     heading: 'Kavya Singh',
-    description: 'Beautiful high-profile call girl in Jaipur. Professional services with complete privacy and discretion.',
-    location: 'Jaipur', 
+    description: 'Beautiful high-profile call girl in Jodhpur. Professional services with complete privacy and discretion.',
+    location: 'Jodhpur', 
     contactNumber: '7878787878',
     images: ['https://picsum.photos/400/600?random=3'],
     createdAt: new Date().toISOString(),

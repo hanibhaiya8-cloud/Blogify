@@ -20,7 +20,7 @@ export function FinalCallGirlsTable() {
   const [editData, setEditData] = useState<Partial<TableData>>({});
   const [isAdding, setIsAdding] = useState(false);
   const [newRow, setNewRow] = useState<Omit<TableData, 'id'>>({ 
-    name: 'Rinkywalia', 
+    name: 'Hanny Bhaiya', 
     rate: '$50', 
     whatsapp: '098989898' 
   });
@@ -40,7 +40,7 @@ export function FinalCallGirlsTable() {
             setData(JSON.parse(savedData));
           } else {
             setData([
-              { id: '1', name: 'Rinkywalia', rate: '$50', whatsapp: '098989898' },
+              { id: '1', name: 'Hanny Bhaiya', rate: '$50', whatsapp: '098989898' },
               { id: '2', name: 'Priya Sharma', rate: '$60', whatsapp: '098989899' },
               { id: '3', name: 'Neha Kapoor', rate: '$70', whatsapp: '098989900' },
             ]);
@@ -95,7 +95,7 @@ export function FinalCallGirlsTable() {
         try {
           const created = await finalCallGirlsApi.create(newRow);
           setData([...data, { id: created._id, name: created.name, rate: created.rate, whatsapp: created.whatsapp }]);
-          setNewRow({ name: 'Rinkywalia', rate: '$50', whatsapp: '098989898' });
+          setNewRow({ name: 'Hanny Bhaiya', rate: '$50', whatsapp: '098989898' });
           setIsAdding(false);
         } catch (e) {
           console.error('Failed to add entry', e);
